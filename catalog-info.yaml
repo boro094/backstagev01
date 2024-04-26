@@ -6,6 +6,7 @@ metadata:
   description: Ansible Project for NLI-Gasag
   annotations:
   grafana/tag-selector: "service=11-NLI-Gasag"
+  grafana/alert-label-selector: "service=awesome-service"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/11-NLI-GasAg
       title: Gitlab-Project
@@ -21,6 +22,7 @@ metadata:
   description: Ansible Project for NLI-WWS
   annotations:
   grafana/tag-selector: "service=11-NLI-Gasag"
+  grafana/alert-label-selector: "service=awesome-service"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/12-NLI-WWS
       title: Gitlab-Project
@@ -36,6 +38,7 @@ metadata:
   description: Ansible Project for NLI-Engie
   annotations:
   grafana/tag-selector: "service=11-NLI-Gasag"
+  grafana/alert-label-selector: "service=awesome-service"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/17-NLI-Engie
       title: Gitlab-Project
@@ -51,6 +54,7 @@ metadata:
   description: Ansible Project for NLI-Brillant
   annotations:
   grafana/tag-selector: "service=11-NLI-Gasag"
+  grafana/alert-label-selector: "service=awesome-service"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/21-NLI-Brillant
       title: Gitlab-Project
@@ -66,6 +70,7 @@ metadata:
   description: Ansible Project for NLI-Gelber-Strom
   annotations:
   grafana/tag-selector: "service=11-NLI-Gasag"
+  grafana/alert-label-selector: "service=awesome-service"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/22-NLI-Gelber-Strom
       title: Gitlab-Project
@@ -81,6 +86,7 @@ metadata:
   description: Ansible Project for NLI-Eprimo
   annotations:
   grafana/tag-selector: "service=11-NLI-Gasag"
+  grafana/alert-label-selector: "service=awesome-service"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/27-eprimo
       title: Gitlab-Project
