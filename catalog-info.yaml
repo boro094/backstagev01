@@ -4,6 +4,8 @@ kind: Component
 metadata:
   name: 11-NLI-Gasag
   description: Ansible Project for NLI-Gasag
+  annotations:
+  grafana/alert-label-selector: "service=11-NLI-Gasag"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/11-NLI-GasAg
       title: Gitlab-Project
@@ -17,6 +19,8 @@ kind: Component
 metadata:
   name: 12-NLI-WWS
   description: Ansible Project for NLI-WWS
+  annotations:
+  grafana/alert-label-selector: "service=11-NLI-Gasag"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/12-NLI-WWS
       title: Gitlab-Project
@@ -30,6 +34,8 @@ kind: Component
 metadata:
   name: 17-NLI-Engie
   description: Ansible Project for NLI-Engie
+  annotations:
+  grafana/alert-label-selector: "service=11-NLI-Gasag"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/17-NLI-Engie
       title: Gitlab-Project
@@ -43,6 +49,8 @@ kind: Component
 metadata:
   name: 21-NLI-Brillant
   description: Ansible Project for NLI-Brillant
+  annotations:
+  grafana/alert-label-selector: "service=11-NLI-Gasag"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/21-NLI-Brillant
       title: Gitlab-Project
@@ -56,6 +64,8 @@ kind: Component
 metadata:
   name: 22-NLI-Gelber-Strom
   description: Ansible Project for NLI-Gelber-Strom
+  annotations:
+  grafana/alert-label-selector: "service=11-NLI-Gasag"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/22-NLI-Gelber-Strom
       title: Gitlab-Project
@@ -69,6 +79,8 @@ kind: Component
 metadata:
   name: 27-NLI-Eprimo
   description: Ansible Project for NLI-Eprimo
+  annotations:
+  grafana/alert-label-selector: "service=11-NLI-Gasag"
   links:
     - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/27-eprimo
       title: Gitlab-Project
