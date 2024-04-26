@@ -14,6 +14,7 @@ spec:
   type: Gitlab-Project
   owner: team-cloud
   lifecycle: production
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -30,6 +31,7 @@ spec:
   type: Gitlab-Project
   owner: team-cloud
   lifecycle: production
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -46,6 +48,7 @@ spec:
   type: Gitlab-Project
   owner: team-cloud
   lifecycle: production
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -62,6 +65,7 @@ spec:
   type: Gitlab-Project
   owner: team-cloud
   lifecycle: production
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -78,6 +82,7 @@ spec:
   type: Gitlab-Project
   owner: team-cloud
   lifecycle: production
+
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Component
@@ -94,4 +99,3 @@ spec:
   type: Gitlab-Project
   owner: team-cloud
   lifecycle: production
----
