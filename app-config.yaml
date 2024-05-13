@@ -44,17 +44,21 @@ integrations:
     #   token: ${GHE_TOKEN}
 
 proxy:
-  ### Example for how to add a proxy endpoint for the frontend.
-  ### A typical reason to do this is to handle HTTPS and CORS for internal services.
-  # endpoints:
-  #   '/test':
-  #     target: 'https://example.com'
-  #     changeOrigin: true
+  '/grafana/api':
+    # May be a public or an internal DNS
+    target: https://grafana.host/
+    headers:
+      Authorization: Bearer eyJrIjoiMElTV2NVeHFNUzB3TTM3Ynp0ajRuWXMyVzNqNVNPUWIiLCJuIjoibWFkYWxpbmFfYmFja3N0YWdlIiwiaWQiOjF9
 
-# Reference documentation http://backstage.io/docs/features/techdocs/configuration
-# Note: After experimenting with basic setup, use CI/CD to generate docs
-# and an external cloud storage when deploying TechDocs for production use-case.
-# https://backstage.io/docs/features/techdocs/how-to-guides#how-to-migrate-from-techdocs-basic-to-recommended-deployment-approach
+grafana:
+  # Publicly accessible domain
+  domain: https://monitoring.company.com
+
+  # Is unified alerting enabled in Grafana?
+  # See: https://grafana.com/blog/2021/06/14/the-new-unified-alerting-system-for-grafana-everything-you-need-to-know/
+  # Optional. Default: false
+  unifiedAlerting: false
+
 techdocs:
   builder: 'local' # Alternatives - 'external'
   generator:
