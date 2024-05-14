@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 11-NLI-Gasagtest
+  name: 11-NLI-Gasag
   description: Ansible Project for NLI-Gasag
   annotations:
     grafana/tag-selector: tag-test1
