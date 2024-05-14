@@ -9,7 +9,7 @@ metadata:
     grafana/alert-label-selector: label-test1
     grafana/overview-dashboard: 'https://grafana-az.next-level-apps.com/api/dashboards/uid/Irj2Ekz7k'
   links:
-    - url: https://grafana-az.next-level-apps.com/api/dashboards/uid/Irj2Ekz7k
+    - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/11-NLI-GasAg
       title: Gitlab-Project
 spec:
   type: Gitlab-Project
