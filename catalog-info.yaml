@@ -2,13 +2,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 11-NLI-Gasag
+  name: 11-NLI-Gasagtest
   description: Ansible Project for NLI-Gasag
   annotations:
     grafana/tag-selector: tag-test1
     grafana/alert-label-selector: label-test1
+    grafana/overview-dashboard: 'https://grafana-az.next-level-apps.com/api/dashboards/uid/Irj2Ekz7k'
   links:
-    - url: https://gitlab.next-level-apps.com/team-cloud/ansible/Azure-setups/11-NLI-GasAg
+    - url: https://grafana-az.next-level-apps.com/api/dashboards/uid/Irj2Ekz7k
       title: Gitlab-Project
 spec:
   type: Gitlab-Project
